@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------------------Background------------------- */
+.title {
+    margin-top: 50px;
+}
+.box {
+    height: 300px;
+    width: 600px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.small {
+    height: 100px;
+    width: 200px;
+}
+.outline {
+    outline: 1px solid black;
+}
+
+

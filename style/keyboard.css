@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgray;
+}
+
+.container {
+    margin: 100px auto;
+    margin-left: 25%;
+}
+.write {
+    margin: 0 0 5px;
+    padding: 5px;
+    width: 671px;
+    height: 150px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 671px;
+    list-style: none;
+}
+.key {
+    margin: 0 5px 5px 0;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+.tab-,
+.delete {
+    width: 85px;
+}
+.capslock- {
+    width: 95px;
+}
+.enter- {
+    width: 75px;
+}
+.left-shift {
+    width: 108px;
+}
+.right-shift {
+    width: 108px;
+}   
+.space- {
+    width: 670px;
+} 
+.lastitem {
+    margin-right: 0px;
+}
+
+.active {
+    background-color: chocolate;
+} 
